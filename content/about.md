@@ -1,10 +1,11 @@
 ---
 title: "About"
-description: "How two decades of reading tissue shapes the way I evaluate evidence: skepticism toward method, pattern recognition, and thinking across scales."
+description: "How two decades of preparing tissue for the microscope shapes the way I evaluate evidence: skepticism toward method, an eye for artifact, and thinking across scales."
 ---
 
-For more than twenty years I read tissue for a living—which is really to say I spent two
-decades learning how observation can deceive you, and what it takes to trust what you see.
+For more than twenty years my work was to make tissue legible—to fix, cut, and stain it so
+that what mattered could be seen. Which is really to say I spent two decades learning how
+easily observation can be manufactured, and what it takes to trust what you see.
 
 Histotechnology is a discipline of preparation. Nothing under the microscope is raw; every
 image is the product of how the sample was fixed, processed, and stained. A careless step
@@ -13,22 +14,25 @@ teaches is a specific, durable skepticism: *before asking what a result means, a
 made.* That question—is this signal, or an artifact of the method?—is the one I bring to
 almost everything I read now.
 
-The bench trains other habits of mind alongside it. Reading a slide is pattern recognition
-against a baseline of normal: you learn to find the one thing that doesn't belong in a field
-of noise. Immunohistochemistry is an education in evidence itself—in controls, in specificity
-and sensitivity, in the discipline of proving that a marker marks what you claim it does
-before you believe it. Troubleshooting reveals cause the hard way: isolate the variable,
-change one thing, watch what moves.
+The bench trains other habits alongside it. Judging a preparation is its own kind of pattern
+recognition—not reading a slide for a diagnosis, but reading it for fidelity: is this section
+adequate, did the stain perform, is that structure real or an edge of the knife, a fold, a
+precipitate? Immunohistochemistry is an education in evidence itself—in controls, in
+specificity and sensitivity, in the discipline of proving that a marker marks what you claim
+before anyone should believe it. And troubleshooting reveals cause the hard way: isolate the
+variable, change one thing, watch what moves.
 
-And because tissue only makes sense across scales—a molecule, a membrane, a cell, an organ, a
-body—the work is inherently systems thinking. You cannot explain a morphology without moving
-up and down those levels at once. That instinct, more than any particular fact, is what the
-essays here are built from.
+Because tissue only makes sense across scales—a molecule, a membrane, a cell, an organ, a
+body—the work is inherently systems thinking. You cannot make sense of a morphology, or of
+why a stain behaves as it does, without moving up and down those levels at once. That
+instinct, more than any particular fact, is what the essays here are built from.
 
 What I offer, then, is less a list of topics than a way of working: rigorous observation,
 respect for method, mechanism over correlation, and a refusal to mistake a compelling story
-for a demonstrated one. Twenty years at the microscope taught me to look closer, question
-assumptions, and find the signal in the noise. I write to do the same with the literature.
+for a demonstrated one. The person who prepares the evidence learns better than anyone how
+easily it can be made to lie. Twenty years at the microscope taught me to look closer,
+question assumptions, and find the signal in the noise—and I write to do the same with the
+literature.
 
 ## Credentials
 
