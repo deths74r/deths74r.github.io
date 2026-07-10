@@ -141,6 +141,7 @@ h3 { font-size: 1.2rem; margin: 1.8rem 0 .6rem; }
   background: var(--accent); color: #fff; padding: .6rem 1.1rem; border-radius: 5px; margin-top: .5rem;
 }
 .btn:hover { background: var(--accent-soft); text-decoration: none; }
+.email-fallback { font-family: var(--sans); color: var(--fg-soft); }
 
 /* ── List pages ────────────────────────────────────────────────────────── */
 .list-header { border-bottom: 2px solid var(--fg); padding-bottom: .8rem; margin-bottom: 1rem; }

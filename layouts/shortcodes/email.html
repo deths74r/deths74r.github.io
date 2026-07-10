@@ -1,0 +1,12 @@
+{{- /* Obfuscated mailto: no literal "@" or "mailto:" appears in the page source.
+       The address is base64-encoded and assembled into a real link by a tiny
+       inline script; a <noscript> fallback shows a human-readable form. */ -}}
+{{- $user := site.Params.email_user -}}
+{{- $domain := site.Params.email_domain -}}
+{{- $enc := printf "%s@%s" $user $domain | base64Encode -}}
+{{- $label := .Get "label" | default "Email me" -}}
+<a class="email-link btn" data-email="{{ $enc }}" href="#" rel="nofollow">{{ $label }}</a>
+<noscript><style>.email-link{display:none}</style><span class="email-fallback">Email: {{ $user }}<span aria-hidden="true"> [at] </span>{{ $domain }}</span></noscript>
+<script>
+(function(){var ls=document.querySelectorAll('a.email-link[data-email]');for(var i=0;i<ls.length;i++){var a=ls[i],e=atob(a.getAttribute('data-email'));a.href='mailto:'+e;a.setAttribute('title',e);a.removeAttribute('data-email');}})();
+</script>

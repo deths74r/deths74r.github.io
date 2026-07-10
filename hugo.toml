@@ -17,6 +17,10 @@ enableEmoji = false
   description = "Technical essays on adaptive systems, essential fatty acid biochemistry, hormetic endocrinology, and the physiology of form and function."
   author = "Edward J. Edmonds"
   tagline = "Adaptive systems · Essential fatty acid biochemistry · Hormetic endocrinology"
+  # Contact address, split so no contiguous "user@domain" sits in the source.
+  # Rendered obfuscated by the `email` shortcode. Update both parts to change it.
+  email_user = "edward.edmonds"
+  email_domain = "gmail.com"
   # Replace with your real Buttondown newsletter URL when ready, then set enabled = true
   [params.newsletter]
     enabled = false
@@ -41,6 +45,10 @@ enableEmoji = false
     name = "About"
     pageRef = "/about"
     weight = 40
+  [[menu.main]]
+    name = "Contact"
+    pageRef = "/contact"
+    weight = 50
 
 # ── Content taxonomies (topic clustering for SEO) ────────────────────────────
 [taxonomies]
