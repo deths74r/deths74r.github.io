@@ -36,8 +36,8 @@ literature.
 
 ## Credentials
 
-- **HT(ASCP)CM** — Histotechnologist, American Society for Clinical Pathology
-- **QIHC(CM)** — Qualification in Immunohistochemistry (ASCP)
+- **HT(ASCP)<sup>CM</sup>** — Histotechnician, American Society for Clinical Pathology
+- **QIHC<sup>CM</sup>** — Qualification in Immunohistochemistry (ASCP)
 - Trained at the Tri-Service School of Histotechnology, Armed Forces Institute of Pathology
 
 ## Contact
