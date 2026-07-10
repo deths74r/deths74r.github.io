@@ -34,14 +34,6 @@ enableEmoji = false
     pageRef = "/essays"
     weight = 10
   [[menu.main]]
-    name = "Concepts"
-    pageRef = "/concepts"
-    weight = 20
-  [[menu.main]]
-    name = "Notes"
-    pageRef = "/notes"
-    weight = 30
-  [[menu.main]]
     name = "About"
     pageRef = "/about"
     weight = 40

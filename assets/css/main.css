@@ -66,7 +66,8 @@ body {
   font-kerning: normal;
 }
 
-.wrap { width: 100%; max-width: var(--measure); margin-inline: auto; padding-inline: 1.25rem; }
+/* Uniform content width across all pages (matches the homepage). */
+.wrap { width: 100%; max-width: var(--wide); margin-inline: auto; padding-inline: 1.25rem; }
 
 /* ── Links ─────────────────────────────────────────────────────────────── */
 a { color: var(--link); text-decoration: none; }
