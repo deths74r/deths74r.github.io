@@ -30,7 +30,7 @@ instinct, more than any particular fact, is what the essays here are built from.
 What I offer, then, is less a list of topics than a way of working: rigorous observation,
 respect for method, mechanism over correlation, and a refusal to mistake a compelling story
 for a demonstrated one. The person who prepares the evidence learns better than anyone how
-easily it can be made to lie. Twenty years at the microscope taught me to look closer,
+easily it can be made to lie. Twenty years as a scientist in histotechnology taught me to look closer,
 question assumptions, and find the signal in the noise—and I write to do the same with the
 literature.
 
