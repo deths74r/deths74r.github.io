@@ -1,0 +1,38 @@
+{{ define "main" }}
+<article class="post wrap">
+  <header class="post-header">
+    {{- if not .IsHome }}<p class="kicker"><a href="{{ .CurrentSection.RelPermalink }}">{{ .CurrentSection.Title }}</a></p>{{ end }}
+    <h1>{{ .Title }}</h1>
+    {{- with .Description }}<p class="post-subtitle">{{ . }}</p>{{ end }}
+    {{- if .IsPage }}
+    <p class="post-meta">
+      <span>{{ site.Params.author }}</span>
+      {{- with .Date }} · <time datetime="{{ .Format "2006-01-02" }}">{{ .Format "January 2, 2006" }}</time>{{ end }}
+      {{- if gt .WordCount 0 }} · {{ .ReadingTime }} min read · {{ lang.FormatNumber 0 .WordCount }} words{{ end }}
+    </p>
+    {{- end }}
+  </header>
+
+  {{- if and .Params.toc (gt (len .TableOfContents) 100) }}
+  <nav class="toc" aria-label="Table of contents">
+    <p class="toc-title">Contents</p>
+    {{ .TableOfContents }}
+  </nav>
+  {{- end }}
+
+  <div class="post-body">
+    {{ .Content }}
+  </div>
+
+  <footer class="post-footer">
+    {{- with .GetTerms "tags" }}
+    <ul class="tags">
+      {{- range . }}<li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>{{ end }}
+    </ul>
+    {{- end }}
+    {{- if and .Lastmod (ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02")) }}
+    <p class="revised">Last revised {{ .Lastmod.Format "January 2, 2006" }}.</p>
+    {{- end }}
+  </footer>
+</article>
+{{ end }}

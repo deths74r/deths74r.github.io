@@ -1,0 +1,19 @@
+<footer class="site-footer">
+  <div class="wrap">
+    {{- if site.Params.newsletter.enabled }}
+    <div class="footer-subscribe">
+      <h2>Newsletter</h2>
+      <p>{{ site.Params.newsletter.blurb }}</p>
+      <a class="btn" href="{{ site.Params.newsletter.url }}">Subscribe by email</a>
+    </div>
+    {{- end }}
+    <div class="footer-meta">
+      <p>&copy; {{ now.Format "2006" }} {{ site.Params.author }}. Text licensed for reading; cite with a link.</p>
+      <p class="footer-links">
+        <a href="{{ "/" | relURL }}">Home</a>
+        <a href="{{ "/index.xml" | relURL }}">RSS</a>
+        <a href="https://github.com/edwardedmonds">GitHub</a>
+      </p>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,83 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Site configuration
+# When you move to the custom domain, change baseURL to "https://edwardjedmonds.com/"
+# ─────────────────────────────────────────────────────────────────────────────
+baseURL = "https://edwardedmonds.github.io/"
+locale = "en-us"
+title = "Edward J. Edmonds"
+enableRobotsTXT = true
+enableGitInfo = false
+# Emit an author-friendly "last modified" from front matter if present
+enableEmoji = false
+
+[pagination]
+  pagerSize = 12
+
+[params]
+  description = "Independent research and long-form essays on physiology, nutrition science, lipid metabolism, pathology, and the critical evaluation of scientific evidence."
+  author = "Edward J. Edmonds"
+  tagline = "Independent research in physiology, nutrition, and biomedical science"
+  # Replace with your real Buttondown newsletter URL when ready, then set enabled = true
+  [params.newsletter]
+    enabled = false
+    url = "https://buttondown.com/"
+    blurb = "Weekly research notes and long-form investigations, delivered by email."
+
+# ── Navigation ───────────────────────────────────────────────────────────────
+[menu]
+  [[menu.main]]
+    name = "Essays"
+    pageRef = "/essays"
+    weight = 10
+  [[menu.main]]
+    name = "Concepts"
+    pageRef = "/concepts"
+    weight = 20
+  [[menu.main]]
+    name = "Notes"
+    pageRef = "/notes"
+    weight = 30
+  [[menu.main]]
+    name = "About"
+    pageRef = "/about"
+    weight = 40
+
+# ── Content taxonomies (topic clustering for SEO) ────────────────────────────
+[taxonomies]
+  tag = "tags"
+
+# ── Markdown rendering ───────────────────────────────────────────────────────
+[markup]
+  [markup.goldmark.renderer]
+    # Single trusted author; allow raw HTML in Markdown for figures/tables.
+    unsafe = true
+  [markup.goldmark.parser]
+    [markup.goldmark.parser.attribute]
+      block = true
+      title = true
+  # LaTeX math via passthrough delimiters (rendered by KaTeX on pages with `math: true`)
+  [markup.goldmark.extensions.passthrough]
+    enable = true
+    [markup.goldmark.extensions.passthrough.delimiters]
+      block = [['\[', '\]'], ['$$', '$$']]
+      inline = [['\(', '\)']]
+  [markup.highlight]
+    style = "github"
+    noClasses = true
+    tabWidth = 2
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+
+# ── Output formats: HTML + RSS everywhere ────────────────────────────────────
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[services]
+  [services.rss]
+    limit = 30
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.6

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-label="Placeholder figure">
+  <rect width="640" height="300" fill="#f3f1ea"/>
+  <rect x="0.5" y="0.5" width="639" height="299" fill="none" stroke="#d8d2c6"/>
+  <line x1="70" y1="250" x2="600" y2="250" stroke="#8a847b" stroke-width="1.5"/>
+  <line x1="70" y1="250" x2="70" y2="40" stroke="#8a847b" stroke-width="1.5"/>
+  <polyline points="70,230 180,210 290,150 400,95 510,60 600,50" fill="none" stroke="#7a1f2b" stroke-width="2.5"/>
+  <polyline points="70,240 180,238 290,232 400,220 510,205 600,195" fill="none" stroke="#2a4d69" stroke-width="2.5" stroke-dasharray="5 4"/>
+  <text x="335" y="285" font-family="system-ui, sans-serif" font-size="13" fill="#55504a" text-anchor="middle">time →</text>
+  <text x="320" y="30" font-family="system-ui, sans-serif" font-size="14" fill="#8a847b" text-anchor="middle" font-style="italic">placeholder figure — replace in static/figures/</text>
+</svg>
