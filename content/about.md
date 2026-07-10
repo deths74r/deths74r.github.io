@@ -1,41 +1,22 @@
 ---
 title: "About"
-description: "Background, credentials, and how I approach scientific evidence."
+description: "Twenty years in histotechnology, writing technical essays on adaptive systems, physiology, and biochemistry."
 ---
 
-I am an independent researcher and writer working at the intersection of physiology,
-nutrition science, and pathology. My background is in histotechnology — the laboratory
-discipline concerned with preparing and interpreting tissue at the microscopic level.
+Context is everything—in tissue, in data, in life. Twenty years as a histotechnologist
+taught me to look closer, question assumptions, and find the signal in the noise.
 
-> **Draft — edit this page.** Replace the sections below with your own words. The structure
-> mirrors what you outlined: credentials, experience, philosophy, and how you evaluate
-> evidence.
+I write technical essays on adaptive systems, essential fatty acid biochemistry, hormetic
+endocrinology, and the physiology of form and function — tracing mechanisms across scales,
+from double bonds to whole-system behavior.
 
-## Credentials
+## Background
 
-- **ASCP HT** — Histotechnologist, American Society for Clinical Pathology
+- Twenty years in histotechnology
+- **ASCP HT** — Histotechnologist
 - **ASCP QIHC** — Qualification in Immunohistochemistry
 
-## Experience
+## Contact
 
-A short account of your histotechnology background — the settings you've worked in, the
-techniques you specialize in (immunohistochemistry, special stains, tissue processing), and
-what drew you to writing about the science behind them.
-
-## Scientific philosophy
-
-What I value in scientific work: mechanism over correlation, primary sources over summaries,
-and the discipline of stating clearly what is and isn't known. I try to write the article I
-wish I'd found when I first went looking.
-
-## How I evaluate evidence
-
-- Read the primary literature, not press releases or secondary summaries.
-- Distinguish mechanism from association, and effect size from statistical significance.
-- Weigh study design: what was measured, in whom, for how long, and against what comparison.
-- Track how a claim propagated historically — who first made it, and on what basis.
-
-## Contact & newsletter
-
-The best way to follow the work is the newsletter, where I share research notes and longer
-investigations. *(Add your Buttondown link once it's live — see `hugo.toml`.)*
+Reach me by [email](mailto:769c339e-b1ab-4090-b6d9-a55e390b9039@edwardjedmonds.com), or find
+my work on [GitHub](https://github.com/deths74r).

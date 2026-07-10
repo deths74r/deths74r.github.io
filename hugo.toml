@@ -14,9 +14,9 @@ enableEmoji = false
   pagerSize = 12
 
 [params]
-  description = "Independent research and long-form essays on physiology, nutrition science, lipid metabolism, pathology, and the critical evaluation of scientific evidence."
+  description = "Technical essays on adaptive systems, essential fatty acid biochemistry, hormetic endocrinology, and the physiology of form and function."
   author = "Edward J. Edmonds"
-  tagline = "Independent research in physiology, nutrition, and biomedical science"
+  tagline = "Adaptive systems · Essential fatty acid biochemistry · Hormetic endocrinology"
   # Replace with your real Buttondown newsletter URL when ready, then set enabled = true
   [params.newsletter]
     enabled = false

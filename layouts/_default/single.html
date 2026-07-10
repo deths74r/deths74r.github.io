@@ -3,7 +3,7 @@
   <header class="post-header">
     {{- if not .IsHome }}<p class="kicker"><a href="{{ .CurrentSection.RelPermalink }}">{{ .CurrentSection.Title }}</a></p>{{ end }}
     <h1>{{ .Title }}</h1>
-    {{- with .Description }}<p class="post-subtitle">{{ . }}</p>{{ end }}
+    {{- with (or .Params.subtitle .Description) }}<p class="post-subtitle">{{ . }}</p>{{ end }}
     {{- if .IsPage }}
     <p class="post-meta">
       <span>{{ site.Params.author }}</span>

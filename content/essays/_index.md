@@ -1,4 +1,4 @@
 ---
 title: "Essays"
-description: "Long-form analytical essays on metabolism, pathology, nutrition, and the history of scientific ideas."
+description: "Technical essays on adaptive systems, essential fatty acid biochemistry, hormetic endocrinology, and the physiology of form and function."
 ---
