@@ -1,0 +1,41 @@
+{{- /* JSON-LD structured data, tailored per page kind. */ -}}
+{{- $desc := or .Description (.Summary | plainify | chomp) site.Params.description -}}
+{{- $ogimg := partial "og-image.html" . -}}
+{{- $siteId := printf "%s#website" site.BaseURL -}}
+{{- $personId := printf "%s#person" site.BaseURL -}}
+{{- $author := dict "@type" "Person" "@id" $personId "name" site.Params.author "url" site.BaseURL "sameAs" (slice "https://github.com/deths74r") -}}
+{{- if .IsHome -}}
+  {{- $graph := slice
+      (dict "@type" "WebSite" "@id" $siteId "url" site.BaseURL "name" site.Title "description" site.Params.description "inLanguage" "en-US" "publisher" (dict "@id" $personId))
+      (dict "@type" "Person" "@id" $personId "name" site.Params.author "url" site.BaseURL "description" site.Params.description "sameAs" (slice "https://github.com/deths74r")) -}}
+  {{- $data := dict "@context" "https://schema.org" "@graph" $graph -}}
+  <script type="application/ld+json">{{ $data | jsonify (dict "indent" "  ") | safeJS }}</script>
+{{- else if and .IsPage (eq .Section "essays") -}}
+  {{- $post := dict
+      "@type" "BlogPosting"
+      "headline" .Title
+      "description" $desc
+      "url" .Permalink
+      "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
+      "datePublished" (.Date.Format "2006-01-02")
+      "dateModified" (.Lastmod.Format "2006-01-02")
+      "author" $author
+      "publisher" (dict "@type" "Person" "name" site.Params.author "url" site.BaseURL)
+      "inLanguage" "en-US"
+      "wordCount" .WordCount
+      "articleSection" .CurrentSection.Title -}}
+  {{- with $ogimg }}{{- $post = merge $post (dict "image" .) -}}{{- end -}}
+  {{- with .Params.tags }}{{- $post = merge $post (dict "keywords" (delimit . ", ")) -}}{{- end -}}
+  {{- $crumb := dict "@type" "BreadcrumbList" "itemListElement" (slice
+      (dict "@type" "ListItem" "position" 1 "name" "Home" "item" site.BaseURL)
+      (dict "@type" "ListItem" "position" 2 "name" .CurrentSection.Title "item" .CurrentSection.Permalink)
+      (dict "@type" "ListItem" "position" 3 "name" .Title "item" .Permalink)) -}}
+  {{- $data := dict "@context" "https://schema.org" "@graph" (slice $post $crumb) -}}
+  <script type="application/ld+json">{{ $data | jsonify (dict "indent" "  ") | safeJS }}</script>
+{{- else if .IsPage -}}
+  {{- $wp := dict "@context" "https://schema.org" "@type" "WebPage" "name" .Title "description" $desc "url" .Permalink "inLanguage" "en-US" "isPartOf" (dict "@id" $siteId) -}}
+  <script type="application/ld+json">{{ $wp | jsonify (dict "indent" "  ") | safeJS }}</script>
+{{- else if eq .Kind "section" -}}
+  {{- $cp := dict "@context" "https://schema.org" "@type" "CollectionPage" "name" .Title "description" $desc "url" .Permalink "inLanguage" "en-US" "isPartOf" (dict "@id" $siteId) -}}
+  <script type="application/ld+json">{{ $cp | jsonify (dict "indent" "  ") | safeJS }}</script>
+{{- end -}}

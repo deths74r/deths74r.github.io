@@ -17,6 +17,8 @@ enableEmoji = false
   description = "Technical essays on adaptive systems, essential fatty acid biochemistry, hormetic endocrinology, and the physiology of form and function."
   author = "Edward J. Edmonds"
   tagline = "Adaptive systems · Essential fatty acid biochemistry · Hormetic endocrinology"
+  # Concise phrase for the homepage <title> and social card (keep it short for search results).
+  seo_tagline = "Essays on adaptive systems, biochemistry & physiology"
   # Contact address, split so no contiguous "user@domain" sits in the source.
   # Rendered obfuscated by the `email` shortcode. Update both parts to change it.
   email_user = "edward.edmonds"

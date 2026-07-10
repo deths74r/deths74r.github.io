@@ -1,0 +1,27 @@
+{{- /* Per-page social share image: the page title (word-wrapped) overlaid on the
+       branded base. Generated at build time by Hugo (no external tools). Returns
+       an absolute URL, or "" if the base image or font is missing. */ -}}
+{{- $url := "" -}}
+{{- $base := resources.Get "og/og-base.png" -}}
+{{- $font := resources.Get "fonts/og-title.ttf" -}}
+{{- if and $base $font -}}
+  {{- $text := cond .IsHome (or site.Params.seo_tagline site.Params.tagline) .Title -}}
+  {{- $words := split $text " " -}}
+  {{- $lines := slice -}}
+  {{- $cur := "" -}}
+  {{- range $w := $words -}}
+    {{- $try := cond (eq $cur "") $w (printf "%s %s" $cur $w) -}}
+    {{- if gt (len $try) 21 -}}
+      {{- $lines = $lines | append $cur -}}
+      {{- $cur = $w -}}
+    {{- else -}}
+      {{- $cur = $try -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if ne $cur "" -}}{{- $lines = $lines | append $cur -}}{{- end -}}
+  {{- $wrapped := delimit $lines "\n" -}}
+  {{- $opts := dict "font" $font "size" 68 "x" 82 "y" 116 "linespacing" 14 "color" "#f1ebdf" -}}
+  {{- $img := $base.Filter (images.Text $wrapped $opts) -}}
+  {{- $url = $img.Permalink -}}
+{{- end -}}
+{{- return $url -}}
