@@ -38,11 +38,8 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Build with Hugo
-        run: |
-          hugo \
-            --gc \
-            --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+        # baseURL is fixed in hugo.toml (https://edwardjedmonds.com/); do not override.
+        run: hugo --gc --minify
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
