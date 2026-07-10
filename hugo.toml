@@ -2,7 +2,7 @@
 # Site configuration
 # When you move to the custom domain, change baseURL to "https://edwardjedmonds.com/"
 # ─────────────────────────────────────────────────────────────────────────────
-baseURL = "https://edwardedmonds.github.io/"
+baseURL = "https://deths74r.github.io/"
 locale = "en-us"
 title = "Edward J. Edmonds"
 enableRobotsTXT = true

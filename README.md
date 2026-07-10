@@ -75,7 +75,7 @@ When you're ready to point `edwardjedmonds.com` here:
 1. Add a `CNAME` file at the repo root containing `edwardjedmonds.com`.
 2. Change `baseURL` in `hugo.toml` to `https://edwardjedmonds.com/`.
 3. At your DNS registrar, add the four GitHub Pages `A` records (apex) — and a `www` CNAME to
-   `edwardedmonds.github.io` if you want `www`.
+   `deths74r.github.io` if you want `www`.
 4. In **Settings → Pages**, set the custom domain and enable "Enforce HTTPS".
 
 ## Known dependency: KaTeX
