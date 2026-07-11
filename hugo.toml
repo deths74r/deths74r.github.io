@@ -43,6 +43,10 @@ enableEmoji = false
     name = "Contact"
     pageRef = "/contact"
     weight = 50
+  [[menu.main]]
+    name = "Search"
+    pageRef = "/search"
+    weight = 60
 
 # ── Content taxonomies (topic clustering for SEO) ────────────────────────────
 [taxonomies]

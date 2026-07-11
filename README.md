@@ -21,6 +21,15 @@ Requires **Hugo extended ≥ 0.164** (`hugo version` should say `+extended`).
 hugo server -D      # live preview at http://localhost:1313 (-D shows drafts)
 ```
 
+**Search** is built by [Pagefind](https://pagefind.app) from the *rendered* site, so it
+doesn't run under `hugo server`. To preview it, build and index, then serve the output:
+
+```sh
+hugo --minify && npx -y pagefind@1.5.2 --site public && python3 -m http.server -d public 1313
+```
+
+In CI this runs automatically (a Pagefind step after the Hugo build in the deploy workflow).
+
 ## Creating content
 
 ```sh

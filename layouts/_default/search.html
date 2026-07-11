@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="wrap search-page" data-pagefind-ignore>
+  <h1>Search</h1>
+  <p class="search-lede">Search the essays by keyword.</p>
+  <div id="search"></div>
+  <noscript><p>Search needs JavaScript. Browse the <a href="{{ "/essays/" | relURL }}">essays</a> instead.</p></noscript>
+</div>
+{{/* Pagefind assets are generated after the Hugo build (see the deploy workflow / README). */}}
+<link href="{{ "/pagefind/pagefind-ui.css" | relURL }}" rel="stylesheet">
+<script src="{{ "/pagefind/pagefind-ui.js" | relURL }}"></script>
+<script>
+  window.addEventListener('DOMContentLoaded', function () {
+    new PagefindUI({ element: "#search", showSubResults: true, showImages: false });
+  });
+</script>
+{{ end }}

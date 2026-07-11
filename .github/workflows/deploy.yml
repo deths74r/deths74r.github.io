@@ -40,6 +40,8 @@ jobs:
       - name: Build with Hugo
         # baseURL is fixed in hugo.toml (https://edwardjedmonds.com/); do not override.
         run: hugo --gc --minify
+      - name: Build search index (Pagefind)
+        run: npx -y pagefind@1.5.2 --site public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

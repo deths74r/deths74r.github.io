@@ -228,6 +228,20 @@ sup a, .footnote-ref { text-decoration: none; font-family: var(--sans); font-siz
 .footer-meta p { margin: .3rem 0; }
 .footer-links a { color: var(--fg-soft); margin-right: 1.2rem; }
 
+/* ── Search (Pagefind UI, themed to match) ─────────────────────────────── */
+.search-page { max-width: var(--wide); }
+.search-lede { color: var(--fg-soft); margin: 0 0 1.5rem; }
+.search-page {
+  --pagefind-ui-primary: var(--accent);
+  --pagefind-ui-text: var(--fg);
+  --pagefind-ui-background: var(--bg);
+  --pagefind-ui-border: var(--rule);
+  --pagefind-ui-tag: var(--bg-soft);
+  --pagefind-ui-border-width: 1px;
+  --pagefind-ui-border-radius: 6px;
+  --pagefind-ui-font: var(--sans);
+}
+
 /* ── Error page ────────────────────────────────────────────────────────── */
 .error-page { text-align: center; padding-block: 3rem; }
 

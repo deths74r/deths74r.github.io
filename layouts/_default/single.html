@@ -1,5 +1,5 @@
 {{ define "main" }}
-<article class="post wrap">
+<article class="post wrap"{{ if eq .Section "essays" }} data-pagefind-body{{ end }}>
   <header class="post-header">
     {{- if not .IsHome }}<p class="kicker"><a href="{{ .CurrentSection.RelPermalink }}">{{ .CurrentSection.Title }}</a></p>{{ end }}
     <h1>{{ .Title }}</h1>
@@ -14,7 +14,7 @@
   </header>
 
   {{- if and .Params.toc (gt (len .TableOfContents) 100) }}
-  <nav class="toc" aria-label="Table of contents">
+  <nav class="toc" aria-label="Table of contents" data-pagefind-ignore>
     <p class="toc-title">Contents</p>
     {{ .TableOfContents }}
   </nav>
@@ -24,7 +24,7 @@
     {{ .Content }}
   </div>
 
-  <footer class="post-footer">
+  <footer class="post-footer" data-pagefind-ignore>
     {{- with .GetTerms "tags" }}
     <ul class="tags">
       {{- range . }}<li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>{{ end }}
