@@ -31,7 +31,17 @@ hugo new content essays/your-essay-slug.md
 `edwardjedmonds.com/essays/lipid-peroxidation-revisited/`. Use lowercase words separated by
 hyphens, and make it descriptive — the slug matters for SEO.
 
-This creates the file pre-filled with front matter and `draft: true`.
+This scaffolds a ready-to-write essay — front matter (with `draft: true`) plus a light body
+skeleton (intro, sections, a footnote example). Just fill it in.
+
+**Writing a math-heavy essay?** Use the math template instead — it adds `math: true`, `toc: true`,
+and example equations:
+
+```fish
+hugo new content essays/your-essay-slug.md --kind math-essay
+```
+
+(The templates live in `archetypes/` — `essays.md` is the default; `math-essay.md` is the variant.)
 
 ### 2. Fill in the front matter
 
