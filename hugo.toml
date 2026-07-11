@@ -23,11 +23,11 @@ enableEmoji = false
   # Rendered obfuscated by the `email` shortcode. Update both parts to change it.
   email_user = "edward.edmonds"
   email_domain = "gmail.com"
-  # Replace with your real Buttondown newsletter URL when ready, then set enabled = true
+  # Buttondown newsletter. `enabled` gates the nav/homepage/footer Subscribe CTAs.
   [params.newsletter]
-    enabled = false
-    url = "https://buttondown.com/"
-    blurb = "Weekly research notes and long-form investigations, delivered by email."
+    enabled = true
+    url = "https://buttondown.com/edwardjedmonds"
+    blurb = "Research notes and long-form investigations, delivered by email."
 
 # ── Navigation ───────────────────────────────────────────────────────────────
 [menu]
