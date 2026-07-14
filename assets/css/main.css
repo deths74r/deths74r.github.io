@@ -217,6 +217,14 @@ sup a, .footnote-ref { text-decoration: none; font-family: var(--sans); font-siz
 .tags a:hover { color: var(--accent); text-decoration: none; }
 .revised { font-family: var(--sans); font-size: .82rem; color: var(--fg-faint); margin-top: .8rem; }
 
+/* ── Credential badges (Credly, self-hosted — no external script) ──────── */
+.badges { display: flex; flex-wrap: wrap; gap: 1.1rem; margin: 1.25rem 0 .4rem; }
+.badge { display: inline-block; line-height: 0; border-radius: 6px; transition: transform .15s ease; }
+.badge img { width: 138px; height: 138px; border-radius: 0; }
+.badge:hover { transform: translateY(-2px); text-decoration: none; }
+.badge:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+.badges-note { font-family: var(--sans); font-size: .82rem; color: var(--fg-faint); margin: .1rem 0 0; }
+
 /* ── Footer ────────────────────────────────────────────────────────────── */
 .site-footer { border-top: 1px solid var(--rule); margin-top: 4rem; padding-block: 2rem 3rem; }
 .footer-subscribe { max-width: var(--wide); margin: 0 auto 2rem; }

@@ -40,6 +40,11 @@ literature.
 - **QIHC<sup>CM</sup>** — Qualification in Immunohistochemistry (ASCP)
 - Trained at the Tri-Service School of Histotechnology, Armed Forces Institute of Pathology
 
+{{< badges note="Each badge links to its public verification on Credly." >}}
+{{< badge id="98b44cdc-b993-4f95-8ba0-56fb2e000c00" src="/badges/ht-ascp.png" name="HT(ASCP) — Histotechnician" >}}
+{{< badge id="46a2f830-ffc3-4f1c-9568-129cdf914d2f" src="/badges/qihc-ascp.png" name="QIHC — Qualification in Immunohistochemistry" >}}
+{{< /badges >}}
+
 ## Contact
 
 The best way to reach me is the [contact page]({{< relref "contact" >}}). My work and the

@@ -1,0 +1,12 @@
+{{- /* Credential badge: a self-hosted image that links to its public Credly
+       verification page. No external script or iframe — the whole point is that
+       the badge keeps working with nothing to rot. Pair with the `badges`
+       wrapper for a row. The `id` is the Credly badge instance id.
+       Usage: {{< badge id="…" src="/badges/ht-ascp.png" name="HT(ASCP) — Histotechnician" >}} */ -}}
+{{- $id := .Get "id" -}}
+{{- $src := .Get "src" -}}
+{{- $name := .Get "name" -}}
+<a class="badge" href="https://www.credly.com/badges/{{ $id }}/public_url" rel="noopener" title="Verify {{ $name }} on Credly">
+  <img src="{{ $src }}" width="150" height="150" loading="lazy" decoding="async"
+       alt="{{ $name }} — verified digital badge issued by the ASCP Board of Certification">
+</a>

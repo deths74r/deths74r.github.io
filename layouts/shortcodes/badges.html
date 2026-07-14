@@ -1,0 +1,6 @@
+{{- /* Row wrapper for one or more `badge` shortcodes. Optional `note` renders a
+       small caption below (e.g. that the badges link to verification). */ -}}
+<div class="badges">{{ .Inner }}</div>
+{{- with .Get "note" }}
+<p class="badges-note">{{ . }}</p>
+{{- end }}
