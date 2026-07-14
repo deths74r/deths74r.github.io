@@ -43,6 +43,11 @@ literature.
 - **QIHC<sup>CM</sup>** — Qualification in Immunohistochemistry (ASCP)
 - Trained at the Tri-Service School of Histotechnology, Armed Forces Institute of Pathology
 
+<p>
+  <a href="https://www.credly.com/badges/98b44cdc-b993-4f95-8ba0-56fb2e000c00/public_url" title="Verify HT(ASCP) — Histotechnician on Credly"><img src="static/badges/ht-ascp.png" alt="HT(ASCP) — Histotechnician — verified digital badge issued by the ASCP Board of Certification" width="140" height="140"></a>
+  <a href="https://www.credly.com/badges/46a2f830-ffc3-4f1c-9568-129cdf914d2f/public_url" title="Verify QIHC — Qualification in Immunohistochemistry on Credly"><img src="static/badges/qihc-ascp.png" alt="QIHC — Qualification in Immunohistochemistry — verified digital badge issued by the ASCP Board of Certification" width="140" height="140"></a>
+</p>
+
 ## Contact
 
 The best way to reach me is the [contact page](https://edwardjedmonds.com/contact/). My work and the
