@@ -8,6 +8,9 @@
 Thumbs.db
 *.swp
 
+# LMI local ledger/memory state — machine-local, not for publication
+.lmi/
+
 # Personal / private documents — NEVER publish to GitHub
 Edward Edmonds + Histotechnologist*
 *resume*
