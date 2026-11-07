@@ -1,7 +1,7 @@
 ---
 title: "Systems at the Edge"
 subtitle: "What biology teaches us about all adaptive systems"
-date: 2026-01-26
+date: 2025-11-20
 description: "Complex systems survive in a narrow band between rigidity and chaos. From Prigogine to Taleb—the same patterns keep emerging."
 tags: ["complex systems", "thermodynamics"]
 toc: true

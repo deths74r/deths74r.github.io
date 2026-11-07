@@ -1,7 +1,7 @@
 ---
 title: "The Integrated System"
 subtitle: "One framework for adaptive physiology"
-date: 2026-01-26
+date: 2025-10-23
 description: "Velocity, stability, form, and consolidation aren't separate ideas—they're components of one system. Here's how the pieces fit together."
 tags: ["systems biology", "physiology"]
 toc: true

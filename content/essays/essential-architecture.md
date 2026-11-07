@@ -1,7 +1,7 @@
 ---
 title: "Essential Architecture"
 subtitle: "Why building blocks shouldn't become fuel"
-date: 2026-01-26
+date: 2025-12-22
 description: "You don't burn lumber while your walls are falling down. PUFAs aren't fuel—they're building blocks that cause problems in the wrong metabolic context."
 tags: ["lipids", "PUFA", "metabolism"]
 toc: true

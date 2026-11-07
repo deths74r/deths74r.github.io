@@ -1,7 +1,7 @@
 ---
 title: "Merchants of Doubt"
 subtitle: "The manufactured architecture of American anti-intellectualism"
-date: 2026-07-09
+date: 2026-02-27
 description: "The manufactured architecture of American anti-intellectualism. How identifiable actors spent decades and billions manufacturing doubt about expertise—and built a trillion-dollar parallel economy on the result."
 tags: ["history of science", "epistemology", "public health"]
 toc: true
