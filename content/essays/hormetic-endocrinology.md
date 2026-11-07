@@ -1,8 +1,9 @@
 ---
 title: "Hormetic Endocrinology"
+seo_title: "Hormetic Endocrinology: A Hypothesis"
 subtitle: "Cyclical perturbation over static replacement"
 date: 2025-07-22
-description: "Chronic testosterone replacement creates dependency through HPG axis suppression. Brief cyclical perturbation may preserve or enhance baseline function—a hormetic approach to endocrinology with falsifiable predictions."
+description: "A theoretical framework for cyclical hormone signaling, recovery, and adaptation, with explicit hypotheses, uncertainties, and testable predictions."
 tags: ["endocrinology", "hormesis", "testosterone"]
 toc: true
 math: false

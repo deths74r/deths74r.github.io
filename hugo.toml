@@ -4,6 +4,8 @@
 # ─────────────────────────────────────────────────────────────────────────────
 baseURL = "https://edwardjedmonds.com/"
 locale = "en-us"
+# Interpret date-only publication entries in the site’s editorial timezone.
+timeZone = "America/Chicago"
 title = "Edward J. Edmonds"
 enableRobotsTXT = true
 enableGitInfo = false
@@ -14,11 +16,12 @@ enableEmoji = false
   pagerSize = 12
 
 [params]
-  description = "Technical essays on adaptive systems, essential fatty acid biochemistry, hormetic endocrinology, and the physiology of form and function."
+  description = "Essays by Edward J. Edmonds on adaptive systems, physiology, essential fatty acids, and the ways biological and social systems maintain their structure."
   author = "Edward J. Edmonds"
+  author_bio = "Writer drawing on more than twenty years in histotechnology to examine evidence, physiology, and adaptive systems."
   tagline = "Adaptive systems · Essential fatty acid biochemistry · Hormetic endocrinology"
   # Concise phrase for the homepage <title> and social card (keep it short for search results).
-  seo_tagline = "Essays on adaptive systems, biochemistry & physiology"
+  seo_tagline = "Adaptive Systems & Physiology"
   # Contact address, split so no contiguous "user@domain" sits in the source.
   # Rendered obfuscated by the `email` shortcode. Update both parts to change it.
   email_user = "edward.edmonds"

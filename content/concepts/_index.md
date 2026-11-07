@@ -1,5 +1,6 @@
 ---
 title: "Concepts"
-description: "Short reference articles explaining the core ideas — lipid peroxidation, oxidative stress, immunohistochemistry, hazard ratios, and more."
+seo_title: "Concepts"
+description: "An archive for reference articles explaining concepts from Edward J. Edmonds’s essays. No reference articles have been published here yet."
 noindex: true
 ---

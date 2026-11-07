@@ -1,8 +1,9 @@
 ---
 title: "Consolidation Amplifiers"
+seo_title: "Consolidation Amplifiers: Racetams"
 subtitle: "Racetams as consolidation multipliers"
 date: 2025-08-21
-description: "If racetams enhance cholinergic function, they should specifically improve how well adaptations consolidate after training. A framework for thinking about timing."
+description: "An essay exploring whether racetams and cholinergic signaling could influence how training adaptations consolidate within an endocrine framework."
 tags: ["nootropics", "neuroscience"]
 toc: true
 math: false

@@ -2,7 +2,7 @@
 title: "Thyroid Hormone as the Guardian of Form"
 subtitle: "Form against entropy"
 date: 2025-09-18
-description: "The cell maintains its shape against entropy through continuous energy flux. T3 is the conductor of this anti-entropic effort—not a metabolic accelerator, but a structural organizer."
+description: "A theoretical account of thyroid signaling, energy metabolism, and cellular form, exploring how fuel availability and membrane integrity constrain function."
 tags: ["thyroid", "endocrinology", "metabolism"]
 toc: true
 math: false

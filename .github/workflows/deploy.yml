@@ -42,6 +42,8 @@ jobs:
         run: hugo --gc --minify
       - name: Build search index (Pagefind)
         run: npx -y pagefind@1.5.2 --site public
+      - name: Validate page metadata and feeds
+        run: python3 scripts/check_metadata.py public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

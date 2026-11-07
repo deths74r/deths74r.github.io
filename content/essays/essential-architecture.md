@@ -1,8 +1,9 @@
 ---
 title: "Essential Architecture"
+seo_title: "Essential Architecture: Fatty Acids"
 subtitle: "Why building blocks shouldn't become fuel"
 date: 2025-12-22
-description: "You don't burn lumber while your walls are falling down. PUFAs aren't fuel—they're building blocks that cause problems in the wrong metabolic context."
+description: "An argument for distinguishing the structural roles of essential fatty acids from fuel use, connecting membrane maintenance with metabolic function."
 tags: ["lipids", "PUFA", "metabolism"]
 toc: true
 math: false

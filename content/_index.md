@@ -1,6 +1,6 @@
 ---
 title: "Home"
-description: "Technical essays on adaptive systems, essential fatty acid biochemistry, and hormetic endocrinology."
+description: "Essays by Edward J. Edmonds on adaptive systems, physiology, essential fatty acids, and the ways biological and social systems maintain their structure."
 ---
 
 Context is everything—in tissue, in data, in life. Twenty years as a scientist in histotechnology

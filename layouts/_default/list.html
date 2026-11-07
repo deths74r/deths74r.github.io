@@ -18,7 +18,7 @@
         <li class="entry">
           <a class="entry-title" href="{{ .RelPermalink }}">{{ .Title }}</a>
           {{- with .Description }}<p class="entry-desc">{{ . }}</p>{{ end }}
-          <p class="entry-meta"><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>{{ if gt .WordCount 0 }} · {{ .ReadingTime }} min read{{ end }}</p>
+          <p class="entry-meta"><time datetime="{{ .PublishDate.Format "2006-01-02" }}">{{ .PublishDate.Format "January 2, 2006" }}</time>{{ if gt .WordCount 0 }} · {{ .ReadingTime }} min read{{ end }}</p>
         </li>
         {{- end }}
       </ul>

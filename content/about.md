@@ -1,6 +1,7 @@
 ---
 title: "About"
-description: "How two decades of preparing tissue for the microscope shapes the way I evaluate evidence: skepticism toward method, an eye for artifact, and thinking across scales."
+seo_title: "About"
+description: "How Edward J. Edmonds brings more than twenty years in histotechnology to writing about evidence, biological systems, and scientific uncertainty."
 ---
 
 For more than twenty years my work was to make tissue legible—to fix, cut, and stain it so

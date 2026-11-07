@@ -1,6 +1,7 @@
 ---
 title: "Notes"
-description: "Short research notes, reading recommendations, and commentary on new papers."
+seo_title: "Research Notes"
+description: "An archive for Edward J. Edmonds’s shorter research notes, reading recommendations, and commentary. No notes have been published here yet."
 noindex: true
 ---
 

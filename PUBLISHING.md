@@ -165,3 +165,13 @@ git add -A && git commit -m "New essay: ..." && git push
 
 *Note: `essays/` is the active section. `concepts/` and `notes/` exist in the repo but are
 currently unlinked and hidden from search — say the word if you want to start using them.*
+
+## Metadata conventions
+
+- `title` is the visible article heading. Optional `seo_title` adds concise context to the browser/search/social title without changing that heading.
+- Write a specific `description` that accurately summarizes the essay. For theoretical essays, preserve the distinction between a hypothesis and an established finding.
+- Publication dates use `America/Chicago`. `date` supplies the default; an explicit `publishDate` takes precedence consistently in bylines, lists, feeds, and article metadata.
+- Set `lastmod` only for a known revision. Without it, revision dates are omitted from structured data, social metadata, and the sitemap.
+- The homepage RSS feed includes essays only. It uses the same summaries as the HTML and social metadata.
+- Search, topic archives, empty Notes/Concepts archives, and the 404 page remain `noindex`. The sitemap follows the same indexing rules.
+- Generated title cards are used for social previews; they are not represented as article illustrations or author portraits in structured data.

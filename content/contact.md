@@ -1,6 +1,7 @@
 ---
 title: "Contact"
-description: "Get in touch — questions, corrections, and correspondence about the work here."
+seo_title: "Contact"
+description: "Contact Edward J. Edmonds with questions, corrections, or correspondence about his essays on physiology, biochemistry, and adaptive systems."
 ---
 
 For questions, corrections, or correspondence about the essays here, email is best. I read

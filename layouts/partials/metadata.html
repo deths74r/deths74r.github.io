@@ -1,0 +1,21 @@
+{{- /* Shared metadata keeps HTML, social previews, structured data, and feeds aligned. */ -}}
+{{- $name := or .Params.seo_title .Title -}}
+{{- $title := printf "%s · %s" $name site.Title -}}
+{{- if .IsHome -}}{{- $title = printf "%s — %s" site.Title site.Params.seo_tagline -}}{{- end -}}
+{{- $description := .Description -}}
+{{- if eq .Kind "term" -}}
+  {{- $name = printf "%s Essays" .Title -}}
+  {{- $title = printf "%s · %s" $name site.Title -}}
+  {{- $description = printf "Browse essays tagged %s by %s, with perspectives on physiology, biochemistry, and adaptive systems." .Title site.Params.author -}}
+{{- else if eq .Kind "taxonomy" -}}
+  {{- $name = "Essay Topics" -}}
+  {{- $title = printf "%s · %s" $name site.Title -}}
+  {{- $description = printf "Explore the topics in %s’s essays, including endocrinology, essential fatty acids, neuroscience, complex systems, and public trust." site.Params.author -}}
+{{- else if eq .Kind "404" -}}
+  {{- $name = "Page Not Found" -}}
+  {{- $title = printf "%s · %s" $name site.Title -}}
+  {{- $description = "This page could not be found. Visit the homepage, browse the essay archive, or search for the article you need." -}}
+{{- end -}}
+{{- if not $description -}}{{- $description = or (.Summary | plainify | chomp) site.Params.description -}}{{- end -}}
+{{- $noindex := or .Params.noindex (in (slice "taxonomy" "term" "404") .Kind) -}}
+{{- return (dict "title" $title "name" $name "description" $description "noindex" $noindex "article" (and .IsPage (eq .Section "essays"))) -}}

@@ -1,8 +1,9 @@
 ---
 title: "When Architecture Fails"
+seo_title: "When Architecture Fails: Membranes and Metabolism"
 subtitle: "From double bonds to metabolic crisis—why essential fatty acids are essential"
 date: 2026-01-24
-description: "From double bonds to metabolic crisis—why essential fatty acids are essential, how they're consumed, and what breaks when replacement can't keep pace."
+description: "An essay tracing proposed links between essential fatty acids, cardiolipin damage, mitochondrial dysfunction, and disrupted thyroid signaling."
 tags: ["lipids", "essential fatty acids", "metabolism"]
 toc: true
 math: false
