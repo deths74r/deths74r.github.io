@@ -16,3 +16,6 @@ Edward Edmonds + Histotechnologist*
 *resume*
 *Resume*
 *.pdf
+
+# Local writing drafts — excluded from Git and outside Hugo content
+/drafts/

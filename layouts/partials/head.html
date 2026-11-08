@@ -71,3 +71,10 @@
 <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
 <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="48x48">
 <link rel="apple-touch-icon" href="{{ "apple-touch-icon.png" | relURL }}">
+
+{{/* Evidence navigation is needed only by essays with linked evidence notes. */}}
+{{- if .Params.evidence_notes }}
+  {{- with resources.Get "js/evidence.js" | minify | fingerprint }}
+  <script defer src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}"></script>
+  {{- end }}
+{{- end }}
