@@ -1,11 +1,11 @@
 ---
-title: "Essential Fatty Acids: Research Notes (2020)"
-seo_title: "Essential Fatty Acids: Research Notes (2020)"
+title: "Essential Fatty Acids: Research Notes"
+seo_title: "Essential Fatty Acids: Research Notes"
 subtitle: "Archived notes from the original essential fatty acid series"
 date: 2020-03-27T10:27:29-04:00
 lastmod: 2026-11-09
-url: "/essential-fatty-acids-5-notes/"
-aliases: ["/essays/essential-fatty-acids-5-notes/"]
+url: "/essential-fatty-acids-research-notes/"
+aliases: ["/essential-fatty-acids-5-notes/", "/essays/essential-fatty-acids-5-notes/"]
 description: "The original March 2020 research notes on essential fatty acids, preserved as the starting point for a series exploring deficiency, metabolism, and adaptation."
 tags: ["essential fatty acids", "linoleic acid", "metabolism"]
 toc: false
