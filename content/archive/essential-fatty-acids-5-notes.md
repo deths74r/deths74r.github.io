@@ -1,7 +1,7 @@
 ---
-title: "Essential fatty acids (5), notes"
-seo_title: "Essential Fatty Acids: Original Research Notes (2020)"
-subtitle: "Original notes from the essential fatty acid series"
+title: "Essential Fatty Acids: Research Notes (2020)"
+seo_title: "Essential Fatty Acids: Research Notes (2020)"
+subtitle: "Archived notes from the original essential fatty acid series"
 date: 2020-03-27T10:27:29-04:00
 lastmod: 2026-11-09
 url: "/essential-fatty-acids-5-notes/"
@@ -13,7 +13,7 @@ math: false
 draft: false
 ---
 
-*Originally published March 27, 2020. Restored November 9, 2026, with the original wording preserved. These are the notes discussed in [Essential Fatty Acids: There Is a Lot to Explain](/essays/essential-fatty-acids-there-is-a-lot-to-explain/).*
+*Originally published as “Essential fatty acids (5), notes” on March 27, 2020. Restored November 9, 2026, with the original wording preserved. These are the notes discussed in [Essential Fatty Acids: There Is a Lot to Explain](/essays/essential-fatty-acids-there-is-a-lot-to-explain/).*
 
 - IV glucose w/o fat induces EFA deficiency w/ accompanying symptomatology
 
