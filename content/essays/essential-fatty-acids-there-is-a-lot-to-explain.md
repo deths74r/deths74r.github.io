@@ -3,7 +3,7 @@ title: "Essential Fatty Acids: There Is a Lot to Explain"
 seo_title: "Essential Fatty Acids: Supply, Stress, and Adaptation"
 subtitle: "A century of research, an ecological perspective, and the questions behind the series"
 date: 2026-11-08
-lastmod: 2026-11-08
+lastmod: 2026-11-09
 description: "How stress, food supply, and metabolism shape essential fatty acid adequacy: an introduction to a century of research on linoleic acid, deficiency, and adaptation."
 tags: ["essential fatty acids", "linoleic acid", "metabolism", "adaptation"]
 toc: false
@@ -18,7 +18,7 @@ It was a reassuring conclusion for a calculation I hadn't actually done.
 
 In 2019, when I published the first post in my essential fatty acid series, I had already been running self-experiments for a number of years. I had expected this particular subject to be relatively easy to cover. What complicated it was the recognition that I had thought much more about the presence of a nutrient than about the conditions governing its adequacy. I knew to ask what was in the food. I had been less attentive to what was being asked of the organism eating it.
 
-Over several years, I conducted a comprehensive review of the essential fatty acid literature, following almost a century of research from the early Burr and Burr experiments through relatively recent work. The notes I eventually published were the residue of that review: compressed entries marking discussions I intended to develop individually. Intravenous feeding. Skin. Wound healing. Vitamin interactions. Behavior. On the page, they could look like unrelated curiosities. In the research, they kept returning me to the same problem: how an organism meets the material demands of maintaining itself under changing conditions.
+Over several years, I conducted a comprehensive review of the essential fatty acid literature, following almost a century of research from the early Burr and Burr experiments through relatively recent work. The [notes I eventually published](/essential-fatty-acids-5-notes/) were the residue of that review: compressed entries marking discussions I intended to develop individually. Intravenous feeding. Skin. Wound healing. Vitamin interactions. Behavior. On the page, they could look like unrelated curiosities. In the research, they kept returning me to the same problem: how an organism meets the material demands of maintaining itself under changing conditions.
 
 This essay is an introduction to that larger story.
 
