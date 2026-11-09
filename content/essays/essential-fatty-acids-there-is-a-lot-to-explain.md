@@ -111,31 +111,31 @@ We'll begin with Burr and Burr: the diets, the animals, the deterioration, and t
 
 ## Evidence and sources
 
-{{< evidence id="evidence-1" title="Evidence 1: injury changes the circumstances" >}}
+{{< evidence id="evidence-1" title="1: injury changes the circumstances" >}}
 Wolfram and Eckart followed plasma fatty acids in seven severely injured patients receiving intravenous nutrition. They concluded that linoleic acid requirements were increased and that carbohydrate-rich feeding restricted mobilization of stored linoleic acid. This small clinical study connects injury, feeding, and availability. It doesn't measure the requirements associated with ordinary daily stress. [Wolfram and Eckart, 1983](https://pubmed.ncbi.nlm.nih.gov/6418949/).
 
 <a class="evidence-backlink" href="#evidence-ref-1" data-pagefind-ignore>Back to text ↑</a>
 {{< /evidence >}}
 
-{{< evidence id="evidence-2" title="Evidence 2: the same crop, different oil" >}}
+{{< evidence id="evidence-2" title="2: the same crop, different oil" >}}
 Su and White's frying experiment compared conventional soybean oil, high-oleic oil, and blends. Oleic acid accounted for 79% of the high-oleic oil versus 21.5% of the conventional oil. Combined linoleic and linolenic acids accounted for 10.3% versus 62.8%; these are combined figures, not measurements of linoleic acid alone. The high-oleic oil had the best overall frying stability. The experiment shows both the composition change and a reason to produce it. It didn't test nutritional adequacy in consumers. [Su and White, 2004, *Journal of the American Oil Chemists’ Society*](https://doi.org/10.1007/s11746-004-0978-4).
 
 <a class="evidence-backlink" href="#evidence-ref-2" data-pagefind-ignore>Back to text ↑</a>
 {{< /evidence >}}
 
-{{< evidence id="evidence-3" title="Evidence 3: putting dates to the comparison" >}}
+{{< evidence id="evidence-3" title="3: putting dates to the comparison" >}}
 Gubaev and colleagues trace their high-oleic sunflower lines to Pervenets and mutation work reported in 1976. Separately, Flegal and colleagues found that age-adjusted obesity prevalence among U.S. adults aged 20–74 rose from 14.5% in 1976–1980 to 22.5% in 1988–1994. These papers establish the breeding history and the population trend. Neither measures a connection between them, and a breeding date doesn't establish widespread consumption. [Gubaev and colleagues, 2023, *PLOS ONE*](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0288772); [Flegal and colleagues, 1998, *International Journal of Obesity*](https://pubmed.ncbi.nlm.nih.gov/9481598/).
 
 <a class="evidence-backlink" href="#evidence-ref-3" data-pagefind-ignore>Back to text ↑</a>
 {{< /evidence >}}
 
-{{< evidence id="evidence-4" title="Evidence 4: following the feed into the food" >}}
+{{< evidence id="evidence-4" title="4: following the feed into the food" >}}
 Gaffield and colleagues assigned 288 pigs to diets containing either 25% dried distiller's grains with solubles or 2%, 4%, or 6% high-oleic soybean oil. Meat from 144 pigs was evaluated. Belly fat from the high-oleic treatments contained higher proportions of oleic acid and lower proportions of linoleic acid. This demonstrates a feed-to-food composition change. The comparison was with a distiller's-grain diet, rather than a direct exchange of conventional for high-oleic soybean oil; it doesn't establish deficiency in the animals or their consumers. [Gaffield and colleagues, 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9527299/).
 
 <a class="evidence-backlink" href="#evidence-ref-4" data-pagefind-ignore>Back to text ↑</a>
 {{< /evidence >}}
 
-{{< evidence id="evidence-5" title="Evidence 5: what was available under different feeding conditions" >}}
+{{< evidence id="evidence-5" title="5: what was available under different feeding conditions" >}}
 Wene and colleagues gave eight healthy men continuous, calorie-sufficient, fat-free glucose–amino acid diets, intravenously and through a stomach tube. Biochemical deficiency appeared within two weeks; a separate single-subject experiment detected changes by day three. Goodgame and colleagues found abnormal fatty acid measurements after one week of fat-free intravenous feeding in a series of 32 patients, with rapid biochemical improvement after lipid was supplied. Two patients developed skin lesions suggestive of deficiency. [Wene and colleagues, 1975](https://www.jci.org/articles/view/108061); [Goodgame and colleagues, 1978](https://pubmed.ncbi.nlm.nih.gov/98859/).
 
 Stegink and colleagues studied six surgical patients given fat-free, glucose-free amino acid infusions for 10–14 days. They reported mobilization of stored linoleic acid and no biochemical deficiency during that interval. Together, these studies make access to stored fat part of the explanation. They neither measure exhaustion of all body-fat reserves nor establish indefinite adequacy without dietary fat. [Stegink and colleagues, 1977](https://pubmed.ncbi.nlm.nih.gov/402809/).
@@ -143,13 +143,13 @@ Stegink and colleagues studied six surgical patients given fat-free, glucose-fre
 <a class="evidence-backlink" href="#evidence-ref-5" data-pagefind-ignore>Back to text ↑</a>
 {{< /evidence >}}
 
-{{< evidence id="evidence-6" title="Evidence 6: where the deficiency marker came from" >}}
+{{< evidence id="evidence-6" title="6: where the deficiency marker came from" >}}
 Mead and Slaton identified the accumulating fatty acid as 5,8,11-eicosatrienoic acid, now called Mead acid. Holman's 1960 feeding experiment measured fatty acids in plasma, red blood cells, and heart tissue after 89 days on diets differing in fat source and quantity. The familiar triene-to-tetraene ratio compares Mead acid, with three double bonds, to arachidonic acid, with four. Its value as an index grew out of those dietary experiments; the human feeding studies above show its later clinical application. [Mead and Slaton, 1956, *Journal of Biological Chemistry*](https://pubmed.ncbi.nlm.nih.gov/13319291/); [Holman, 1960, *The Journal of Nutrition*](https://www.sciencedirect.com/science/article/pii/S0022316623071523).
 
 <a class="evidence-backlink" href="#evidence-ref-6" data-pagefind-ignore>Back to text ↑</a>
 {{< /evidence >}}
 
-{{< evidence id="evidence-7" title="Evidence 7: making Mead acid, and testing what it does" >}}
+{{< evidence id="evidence-7" title="7: making Mead acid, and testing what it does" >}}
 Ichi and colleagues reduced expression of Elovl5, Fads1, or Fads2 in cultured mouse cells and found lower Mead acid levels. Measurements of intermediate fatty acids supported two routes from oleic acid. This identifies machinery involved in the response. [Ichi and colleagues, 2014](https://pubmed.ncbi.nlm.nih.gov/24184513/).
 
 James and colleagues fed rats essential-fatty-acid-sufficient diets with or without added Mead acid for three weeks. It accumulated in neutrophils, which then produced less leukotriene B4 when stimulated in the laboratory. That isolates a specific effect on inflammatory signaling. It doesn't establish that elevated Mead acid is generally beneficial or harmful in people, or that it can perform every function of the missing essential fats. [James and colleagues, 1993, *The Journal of Experimental Medicine*](https://pubmed.ncbi.nlm.nih.gov/8245797/).
@@ -157,13 +157,13 @@ James and colleagues fed rats essential-fatty-acid-sufficient diets with or with
 <a class="evidence-backlink" href="#evidence-ref-7" data-pagefind-ignore>Back to text ↑</a>
 {{< /evidence >}}
 
-{{< evidence id="evidence-8" title="Evidence 8: a visible result with more than one possible contributor" >}}
+{{< evidence id="evidence-8" title="8: a visible result with more than one possible contributor" >}}
 Fleming and colleagues monitored seven adults receiving fat-free intravenous nutrition for four to eight weeks. All met the study's biochemical criterion for essential fatty acid deficiency. One patient, also deficient in zinc, developed scaly dermatitis that cleared within three weeks after oral food containing both fat and zinc resumed. The case connects blood measurements with a tissue problem, but the recovery can't be assigned to fatty acids alone. [Fleming and colleagues, 1976](https://ajcn.nutrition.org/article/S0002-9165%2823%2934106-6/fulltext).
 
 <a class="evidence-backlink" href="#evidence-ref-8" data-pagefind-ignore>Back to text ↑</a>
 {{< /evidence >}}
 
-{{< evidence id="evidence-9" title="Evidence 9: vitamin E changes the outcome" >}}
+{{< evidence id="evidence-9" title="9: vitamin E changes the outcome" >}}
 Carlson and colleagues studied mice lacking GPX4 in their liver cells. The mice developed severe liver degeneration and died shortly after birth; a vitamin E-enriched diet allowed affected offspring to survive, while later withdrawal led to death. This connects a nutritional condition with protection against lipid peroxidation in a defined genetic model. It doesn't establish a requirement for healthy people or test vitamin E's separate relationship with desaturation enzymes. [Carlson and colleagues, 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4900515/).
 
 <a class="evidence-backlink" href="#evidence-ref-9" data-pagefind-ignore>Back to text ↑</a>

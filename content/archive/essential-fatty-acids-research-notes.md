@@ -22,7 +22,7 @@ draft: false
 
 - IV glucose w/o fat induces EFA deficiency w/ accompanying symptomatology
 
-  - **Evidence 1: Fat-free feeding and deficiency**
+  - **1: Fat-free feeding and deficiency**
 
     **Direct human evidence, under specific feeding conditions.** [Wene, Connor, and DenBesten (1975), *Journal of Clinical Investigation*](https://www.jci.org/articles/view/108061), gave healthy men calorie-maintaining, fat-free glucose/amino-acid diets by continuous intravenous or nasogastric feeding. Plasma fatty-acid changes indicating deficiency developed within two weeks. This demonstrates that adequate calories and existing body fat do not necessarily prevent biochemical deficiency during continuous fat-free feeding.
 
@@ -31,7 +31,7 @@ draft: false
 
 - Hydrogenated coconut oil and tallow are used to induce EFA deficiency in lab animals
 
-  - **Evidence 2: The experimental diet matters**
+  - **2: The experimental diet matters**
 
     **Direct animal evidence, with a qualification about tallow.** [Ling and colleagues (2010), *Prostaglandins, Leukotrienes and Essential Fatty Acids*](https://pmc.ncbi.nlm.nih.gov/articles/PMC3216405/), compared fat-free diets with diets containing hydrogenated coconut oil in rats. Both produced biochemical EFA deficiency within two weeks, although their effects on individual tissues and fatty acids differed.
 
@@ -40,7 +40,7 @@ draft: false
 
 - PUFA induced NAFLD seems to be dependent on what mouse model is being used, for example, diabetic prone mice already have deranged EFA metabolism, as a result EFA would be implicated much like cholesterol is implicated in various disease states but interventions fail, flawed logic, do you biology? LOL.
 
-  - **Evidence 3: Metabolic context and fatty liver**
+  - **3: Metabolic context and fatty liver**
 
     **Support for model dependence; not for dismissing adverse findings.** [Wang and colleagues (2006), *Journal of Lipid Research*](https://pmc.ncbi.nlm.nih.gov/articles/PMC2764365/), found different patterns of hepatic elongase/desaturase expression in chemically induced diabetes, diet-induced glucose intolerance, and genetically obese mice. The metabolic background is therefore a meaningful experimental variable.
 
@@ -49,7 +49,7 @@ draft: false
 
 - Symptoms of EFA deficiency take weeks not years to appear (even when nutrition is adequate)
 
-  - **Evidence 4: How quickly deficiency develops**
+  - **4: How quickly deficiency develops**
 
     **Strong evidence for rapid biochemical change; symptoms are less uniform.** [Goodgame and colleagues (1978), *Surgery*](https://pubmed.ncbi.nlm.nih.gov/98859/), found abnormal linoleic- and eicosatrienoic-acid measurements after one week of fat-free intravenous nutrition; all patients studied at four weeks had an elevated triene:tetraene ratio. Only two developed the reported skin lesions.
 
@@ -58,7 +58,7 @@ draft: false
 
 - Reversal of EFA deficiencies with sources of LA and ALA largely resolve acute symptomatology within weeks not years, the idea it takes years to deplete PUFA stores is unrealistic
 
-  - **Evidence 5: Recovery is not the same as emptying fat stores**
+  - **5: Recovery is not the same as emptying fat stores**
 
     **Repletion evidence supports the first idea, but not the inference about turnover.** [Goodgame and colleagues (1978), *Surgery*](https://pubmed.ncbi.nlm.nih.gov/98859/), reported rapid correction of biochemical abnormalities after intravenous fat was supplied. [Holman, Johnson, and Hatch (1982), *American Journal of Clinical Nutrition*](https://pubmed.ncbi.nlm.nih.gov/6801965/), described disappearance of neurological symptoms after an ALA-containing emulsion corrected a child's omega-3 deficiency. Neither report supplies a universal recovery time for every symptom.
 
@@ -67,7 +67,7 @@ draft: false
 
 - Common symptoms of chronic EFA deficiency are hair loss, increased shedding, and skin abnormalities, hair and skin is one of the most metabolically active tissues, the idea that EFAs slow metabolism is an unrealistic mechanism; same for improvements in skin quality
 
-  - **Evidence 6: Skin, hair, and metabolic rate**
+  - **6: Skin, hair, and metabolic rate**
 
     **The skin connection is well supported; the metabolic inference is too broad.** [Zheng and colleagues (2011), *Journal of Biological Chemistry*](https://pubmed.ncbi.nlm.nih.gov/21558561/), identified a linoleate-dependent pathway required to construct the epidermal water barrier. A human report by [Kim and colleagues (2005), *Journal of Korean Medical Science*](https://doi.org/10.3346/jkms.2005.20.5.908), described skin disease and alopecia with combined fatty-acid, protein, and borderline zinc deficiencies. Because several nutrients were replaced, that case cannot isolate EFA deficiency as the cause of the hair loss.
 
@@ -76,7 +76,7 @@ draft: false
 
 - LA and ALA seem to spare the B vitamins and vice versa
 
-  - **Evidence 7: Interaction with vitamin B6**
+  - **7: Interaction with vitamin B6**
 
     **Evidence of interaction, not demonstrated reciprocal sparing.** [Maranesi and colleagues (1993), *Prostaglandins, Leukotrienes and Essential Fatty Acids*](https://pubmed.ncbi.nlm.nih.gov/8361989/), studied rats receiving little dietary EFA with or without vitamin B6 deficiency. B6 deficiency changed kidney phospholipid composition and increased renal prostaglandin E2 under those conditions.
 
@@ -85,7 +85,7 @@ draft: false
 
 - Symptoms of EFA deficiency are reminiscent of hypothyroidism (thinning of hair, thinning of outer eyebrows)
 
-  - **Evidence 8: Similar signs do not establish a shared cause**
+  - **8: Similar signs do not establish a shared cause**
 
     **Clinical overlap, with limited specificity.** In 460 people with diagnosed hypothyroidism, [Keen, Hassan, and Bhat (2013), *Indian Journal of Dermatology*](https://pmc.ncbi.nlm.nih.gov/articles/PMC3726898/), documented dry skin and diffuse hair loss among the common findings. The combined-nutrient-deficiency case reported by [Kim and colleagues (2005)](https://doi.org/10.3346/jkms.2005.20.5.908) illustrates that nutritional illness can also affect skin and hair.
 
@@ -94,7 +94,7 @@ draft: false
 
 - EFAs are required for proper epithelial differentiation and proliferation, this not only has implications for hair and skin but ALL epithelial cells including the GI tract along with gut permeability
 
-  - **Evidence 9: Epithelial structure and the intestinal barrier**
+  - **9: Epithelial structure and the intestinal barrier**
 
     **Direct evidence in specific tissues and animal models.** [Christon and colleagues (1991), *Reproduction Nutrition Development*](https://pubmed.ncbi.nlm.nih.gov/1777061/), found altered intestinal villi, crypts, epithelial ultrastructure, and brush-border fatty-acid composition in rats fed a low-linoleate diet. This extends the question beyond skin to the gut.
 
@@ -103,7 +103,7 @@ draft: false
 
 - EFA deficient animals manifest with slowed wound healing, this is a problem as the longer a wound takes to heal the more susceptible one is to infection and scarring
 
-  - **Evidence 10: Wound healing**
+  - **10: Wound healing**
 
     **Direct animal evidence, with important differences between wounds.** [Hulsey and colleagues (1980), *Journal of Pediatric Surgery*](https://pubmed.ncbi.nlm.nih.gov/7191003/), compared normal and EFA-deficient rats across skin incisions, intestinal anastomoses, and burns. Control burns healed by 21 days, whereas deficient animals' burns remained incompletely healed at 120 days; wound contraction was impaired. Some other endpoints, including intestinal bursting pressure, did not differ significantly.
 
@@ -112,7 +112,7 @@ draft: false
 
 - The immune system requires LA and ALA to function properly, immune cells hoard EFAs and use the peroxides generated from EFAs to disable viruses and bacteria
 
-  - **Evidence 11: Antimicrobial lipids use more than one mechanism**
+  - **11: Antimicrobial lipids use more than one mechanism**
 
     **Mechanistic support for particular fatty acids and pathogens.** [Beavers and colleagues (2019), *mBio*](https://pmc.ncbi.nlm.nih.gov/articles/PMC6775451/), showed that arachidonic acid killed *Staphylococcus aureus* through lipid-peroxidation products that damaged bacterial molecules. Antioxidants reduced this toxicity. This is direct support for an antimicrobial role of lipid oxidation in that system.
 
@@ -121,7 +121,7 @@ draft: false
 
 - EFAs are required for the proper metabolism of saturated fatty acids (the mechanism is not clear yet)
 
-  - **Evidence 12: An example involving saturated phospholipids**
+  - **12: An example involving saturated phospholipids**
 
     **A specific experimental connection, not yet a general rule.** [Nakamura, Kawamoto, and Akino (1980), *Journal of Nutritional Science and Vitaminology*](https://doi.org/10.3177/jnsv.26.293), studied lung phosphatidylcholine in EFA-deficient rats. They found reduced palmitate in this lipid, fewer dipalmitoyl molecules, altered incorporation of labeled palmitate, and altered alveolar phosphatidylcholine turnover. Dipalmitoyl phosphatidylcholine is an important component of lung surfactant.
 
@@ -130,7 +130,7 @@ draft: false
 
 - EFAs are required for myofibrillar and sarcoplasmic hypertrophy
 
-  - **Evidence 13: Muscle growth signaling**
+  - **13: Muscle growth signaling**
 
     **Cell-culture evidence; necessity in humans is not established.** [Markworth and Cameron-Smith (2013), *American Journal of Physiology—Cell Physiology*](https://pubmed.ncbi.nlm.nih.gov/23076795/), added arachidonic acid to cultured mouse muscle cells and observed larger myotubes and increased protein accumulation. Blocking cyclooxygenase-2 blunted the growth response, implicating downstream prostaglandin production.
 
@@ -139,7 +139,7 @@ draft: false
 
 - EFAs are required for some hormone production, especially some of the stress hormones, a failure in the production of stress hormones would inhibit the stress response, thus adaptation, leading to maladaptive and degenerative state
 
-  - **Evidence 14: Stress hormones—suggestive and contrary findings**
+  - **14: Stress hormones—suggestive and contrary findings**
 
     **A human case supports the possibility; an animal experiment limits the generalization.** [Bistrian and colleagues (1981), *Journal of Parenteral and Enteral Nutrition*](https://pubmed.ncbi.nlm.nih.gov/7195438/), described probable glucocorticoid insufficiency and blood abnormalities during prolonged fat-free feeding, alongside biochemical EFA deficiency. The abnormalities responded to fat repletion. A single case suggests a connection but cannot establish a universal requirement or isolate every contributing factor.
 
@@ -148,7 +148,7 @@ draft: false
 
 - EFA deficiencies manifest psychologically with the following traits: depression, aggression, hostility, changes in attention, motivation, changes in reactivity to stimuli and reward, general personality disorders such as obsessive compulsive behavior, apathy, and eating disorders
 
-  - **Evidence 15: Neural function and behavior**
+  - **15: Neural function and behavior**
 
     **A plausible mechanism in mice, not validation of the entire symptom list.** [Lafourcade and colleagues (2011), *Nature Neuroscience*](https://pubmed.ncbi.nlm.nih.gov/21278728/), found that lifelong dietary omega-3 insufficiency disrupted endocannabinoid-mediated synaptic plasticity in the prefrontal cortex and nucleus accumbens of mice and was associated with altered emotional behavior.
 
@@ -157,7 +157,7 @@ draft: false
 
 - EFAs required for proper sex organ function and development in both males and females
 
-  - **Evidence 16: Reproduction and membrane composition**
+  - **16: Reproduction and membrane composition**
 
     **Strong experimental evidence in a defined mouse model.** [Stoffel and colleagues (2020), *Molecular Metabolism*](https://pubmed.ncbi.nlm.nih.gov/32272092/), studied male and female mice lacking FADS2, an enzyme needed to make longer-chain PUFAs from dietary precursors. The mice developed disrupted ovarian and testicular membrane organization and infertility. Sustained combined AA and DHA feeding restored the relevant structures and fertility, including in adult animals.
 
@@ -166,7 +166,7 @@ draft: false
 
 - EFA metabolism is complex, supplemental EFAs can resolve EFA symptomatology in most cases, however, perturbations of desaturase and elongase activity such as those seen different disease phenotypes can prove difficult to treat though because the underlying machinery is deranged
 
-  - **Evidence 17: Supply and conversion are separate problems**
+  - **17: Supply and conversion are separate problems**
 
     **Direct proof of principle in genetically modified mice.** In [Stroud and colleagues (2009), *Journal of Lipid Research*](https://pmc.ncbi.nlm.nih.gov/articles/PMC2724775/), mice without delta-6 desaturase developed disease despite ample dietary LA; AA prevented the skin and intestinal lesions. In the same type of model, [Roqueta-Rivera and colleagues (2010), *Journal of Lipid Research*](https://pubmed.ncbi.nlm.nih.gov/19690334/), found that DHA restored male fertility more effectively than AA.
 
@@ -175,7 +175,7 @@ draft: false
 
 - EFA derangement is seen in the following conditions, alloxan and streptozotocin treated diabetic rats, diabetes, vitamin E and selenium deficiencies, cystic fibrosis, copper deficiency, Kwashiorkor, adult respiratory distress syndrome, chronic and acute carbon tetrachloride poisoning, multiple sclerosis, most chronic and acute neurological diseases, LEC rat models of fulminant hepatitis, hepatic cancer, Wilson’s disease, sudden cardiac death, beta-Thalassaemia major, abnormal umbilical cord blood cells
 
-  - **Evidence 18: A map of disease associations, not one deficiency syndrome**
+  - **18: A map of disease associations, not one deficiency syndrome**
 
     **Several associations are documented, but the findings are not interchangeable.** “Derangement” can mean altered blood concentrations, different tissue composition, changed enzyme activity, or oxidation products. Those measurements do not all establish dietary EFA deficiency. The papers below provide specific entry points into this long list.
 
@@ -196,7 +196,7 @@ draft: false
 
 - Mead acid is increased during EFA deficiency, the largest reservoir of mead acid is the cartilage, after stores of oleic acid are exhausted soft tissues particularly in the joints are robbed of mead acid stores, it is plausible this can lead to joint degeneration, stiffening of joints, loss of flexibility, calcification of joints
 
-  - **Evidence 19: Mead acid—established synthesis, unverified depletion story**
+  - **19: Mead acid—established synthesis, unverified depletion story**
 
     **The biochemical observation is supported; the proposed joint mechanism is not.** [Ichi and colleagues (2014), *Biochimica et Biophysica Acta*](https://pubmed.ncbi.nlm.nih.gov/24184513/), identified enzymes and pathways involved in making Mead acid from oleic acid, explaining its appearance during EFA deficiency. This is evidence of synthesis, not evidence that tissues must be stripped of pre-existing Mead acid.
 
@@ -205,7 +205,7 @@ draft: false
 
 - LA and ALA are the only known essential fatty acids (in humans, mice have different available desaturase and elongase enzymes, as do other species along with varying capacities), other fatty acids sometimes associated with EFAs such as DHA, EPA, AA, are what are known as ‘conditional essential fatty acids’
 
-  - **Evidence 20: Essential precursors and conditional requirements**
+  - **20: Essential precursors and conditional requirements**
 
     **Human evidence for distinct precursor needs; downstream requirements depend on context.** The fat-free feeding study by [Wene and colleagues (1975), *Journal of Clinical Investigation*](https://www.jci.org/articles/view/108061), demonstrated linoleate depletion and biochemical deficiency. [Holman, Johnson, and Hatch (1982), *American Journal of Clinical Nutrition*](https://pubmed.ncbi.nlm.nih.gov/6801965/), described an omega-3 deficiency that developed despite a linoleate-rich feeding regimen and improved when an ALA-containing emulsion was supplied. The two fatty-acid families are not interchangeable.
 
@@ -214,7 +214,7 @@ draft: false
 
 - Contrary to the antioxidant hypothesis, Vitamin E may not be involved with stabilizing polyunsaturated fat i.e. reducing its proneness towards oxidation, rather Vitamin E is involved with the function of desaturation ezymes, which of course is a more plausible mechanism
 
-  - **Evidence 21: Vitamin E can affect enzymes and protect against oxidation**
+  - **21: Vitamin E can affect enzymes and protect against oxidation**
 
     **An enzyme effect is documented; the proposed exclusion of antioxidant action is contradicted.** [Despret and colleagues (1992), *Neuroscience Letters*](https://pubmed.ncbi.nlm.nih.gov/1461561/), increased vitamin E in rat microsomal preparations and observed increased delta-6 desaturase activity in brain preparations but reduced activity in liver preparations. This supports a tissue-dependent interaction, not a universal alternative explanation for vitamin E's function.
 
@@ -223,7 +223,7 @@ draft: false
 
 - LA probably is an important part of the mammalian antioxidant system
 
-  - **Evidence 22: Oxidized linoleate as a signal**
+  - **22: Oxidized linoleate as a signal**
 
     **A specific mechanistic basis for the idea, with a crucial distinction.** [Wang and colleagues (2009), *Prostaglandins, Leukotrienes and Essential Fatty Acids*](https://pmc.ncbi.nlm.nih.gov/articles/PMC2756043/), found that EKODE, a particular oxidized metabolite of LA, activated an antioxidant-response pathway in neuroblastoma cells and cerebrocortical neurons. The response required NRF2 and PI3-kinase and increased expression of protective genes. LA itself did not activate the response in that screen.
 
@@ -232,7 +232,7 @@ draft: false
 
 - There are sex differences in EFA metabolism that are proportional to muscle mass
 
-  - **Evidence 23: Sex differences are supported; proportionality to muscle is not**
+  - **23: Sex differences are supported; proportionality to muscle is not**
 
     **Human evidence points to hormonal regulation.** [Giltay and colleagues (2004), *American Journal of Clinical Nutrition*](https://pubmed.ncbi.nlm.nih.gov/15531662/), found a higher DHA proportion in women than men eating controlled diets. In hormone-treatment groups, oral ethinyl estradiol increased DHA and testosterone reduced it; transdermal estradiol did not show the same increase as oral treatment.
 
