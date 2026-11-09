@@ -1,5 +1,5 @@
 {{ define "main" }}
-<article class="post wrap"{{ if eq .Section "essays" }} data-pagefind-body{{ end }}>
+<article class="post wrap"{{ if in (slice "essays" "archive") .Section }} data-pagefind-body{{ end }}>
   <header class="post-header">
     {{- if not .IsHome }}<p class="kicker"><a href="{{ .CurrentSection.RelPermalink }}">{{ .CurrentSection.Title }}</a></p>{{ end }}
     <h1>{{ .Title }}</h1>

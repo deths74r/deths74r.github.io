@@ -18,4 +18,4 @@
 {{- end -}}
 {{- if not $description -}}{{- $description = or (.Summary | plainify | chomp) site.Params.description -}}{{- end -}}
 {{- $noindex := or .Params.noindex (in (slice "taxonomy" "term" "404") .Kind) -}}
-{{- return (dict "title" $title "name" $name "description" $description "noindex" $noindex "article" (and .IsPage (eq .Section "essays"))) -}}
+{{- return (dict "title" $title "name" $name "description" $description "noindex" $noindex "article" (and .IsPage (in (slice "essays" "archive") .Section))) -}}
