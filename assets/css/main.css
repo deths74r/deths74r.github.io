@@ -264,7 +264,7 @@ sup a, .footnote-ref { text-decoration: none; font-family: var(--sans); font-siz
   a { color: #000; }
 }
 
-/* Evidence notes: quiet, collapsible asides collected at the end of an essay. */
+/* Always-visible evidence notes, with quiet sans-serif typography. */
 .post-body .evidence-box {
   margin: 1.6rem 0; padding: 1rem 1.25rem;
   border-left: 2px solid var(--rule);
@@ -272,23 +272,28 @@ sup a, .footnote-ref { text-decoration: none; font-family: var(--sans); font-siz
   font-family: var(--sans); font-size: .9375rem; line-height: 1.65;
   color: var(--fg-soft);
 }
-.evidence-box summary {
-  cursor: pointer; font-size: .84rem; font-weight: 600; line-height: 1.4;
+.post-body .evidence-title {
+  margin: 0 0 .8rem; font-size: .84rem; font-weight: 600; line-height: 1.4;
 }
-.evidence-box summary::marker { color: var(--fg-faint); }
-.evidence-box[open] summary { margin-bottom: .8rem; }
+.post-body .evidence-list {
+  margin: .8rem 0 1.8rem; padding-left: 1.3rem;
+  font-family: var(--sans); font-size: .9375rem; line-height: 1.65;
+  color: var(--fg-soft);
+}
+.evidence-list li::marker { color: var(--fg-faint); }
+.evidence-list li > :last-child { margin-bottom: 0; }
 .evidence-content > :last-child { margin-bottom: 0; }
-.evidence-box a { color: inherit; text-decoration: underline; overflow-wrap: anywhere; }
-.evidence-box a:hover { color: var(--link); }
+.evidence-box a, .evidence-list a { color: inherit; text-decoration: underline; overflow-wrap: anywhere; }
+.evidence-box a:hover, .evidence-list a:hover { color: var(--link); }
 .post-body .evidence-ref {
   display: inline-block; vertical-align: super;
   font-family: var(--sans); font-size: .7em; line-height: 1;
   padding: .15em .3em; text-decoration: none;
 }
 .evidence-backlink { font-size: .8rem; }
-.evidence-box, [id^="evidence-ref-"] { scroll-margin-top: 2rem; }
+.evidence-box, .evidence-list, [id^="evidence-ref-"] { scroll-margin-top: 2rem; }
 .evidence-box:target { border-left-color: var(--link); }
-.evidence-box summary:focus-visible, .evidence-ref:focus-visible, .evidence-backlink:focus-visible {
+.evidence-box:focus-visible, .evidence-list:focus-visible, .evidence-ref:focus-visible, .evidence-backlink:focus-visible {
   outline: 2px solid var(--link); outline-offset: 4px;
 }
 @media print {

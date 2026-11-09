@@ -1,6 +1,6 @@
-<details class="evidence-box" id="{{ .Get "id" }}">
-  <summary>{{ .Get "title" }}</summary>
+<aside class="evidence-box" id="{{ .Get "id" }}" tabindex="-1" aria-labelledby="{{ .Get "id" }}-title">
+  <h3 class="evidence-title" id="{{ .Get "id" }}-title">{{ .Get "title" }}</h3>
   <div class="evidence-content">
     {{ .Inner | .Page.RenderString (dict "display" "block") }}
   </div>
-</details>
+</aside>

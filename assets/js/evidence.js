@@ -1,4 +1,4 @@
-// Keep evidence notes folded until a reader follows a reference or opens one.
+// Navigate between visible evidence notes and their references in the essay.
 (() => {
   function revealEvidence() {
     let id;
@@ -6,11 +6,8 @@
     if (!/^evidence-(?:ref-)?[0-9]+$/.test(id)) return;
     const target = document.getElementById(id);
     if (!target) return;
-    const note = target.closest("details.evidence-box");
-    if (note) note.open = true;
     target.scrollIntoView({ block: "start" });
-    const focusTarget = note ? note.querySelector("summary") : target;
-    focusTarget.focus({ preventScroll: true });
+    target.focus({ preventScroll: true });
   }
   document.addEventListener("click", event => {
     const link = event.target.closest("a.evidence-ref, a.evidence-backlink");
