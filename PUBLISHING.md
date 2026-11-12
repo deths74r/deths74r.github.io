@@ -114,7 +114,7 @@ git push
 That's it. GitHub Actions builds the site, generates the social card, updates the search
 index, and deploys. **Live at edwardjedmonds.com in ~1–2 minutes.**
 
-Watch the deploy at <https://github.com/edwardedmonds/edwardedmonds.github.io/actions>.
+Watch the deploy at <https://github.com/edwardedmonds/edwardjedmonds.com/actions>.
 
 ---
 

@@ -131,6 +131,8 @@ assets/css/         styles
 
 ## Deployment
 
+The repository is [edwardedmonds/edwardjedmonds.com](https://github.com/edwardedmonds/edwardjedmonds.com). It publishes as a project Pages site with its own custom domain.
+
 Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds with Hugo and
 publishes to GitHub Pages. One-time setup: **Settings → Pages → Source → GitHub Actions**.
 
