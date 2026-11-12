@@ -49,4 +49,4 @@ literature.
 ## Contact
 
 The best way to reach me is the [contact page]({{< relref "contact" >}}). My work and the
-source for this site live on [GitHub](https://github.com/deths74r).
+source for this site live on [GitHub](https://github.com/edwardedmonds).

@@ -51,7 +51,7 @@ literature.
 ## Contact
 
 The best way to reach me is the [contact page](https://edwardjedmonds.com/contact/). My work and the
-source for this site live on [GitHub](https://github.com/deths74r).
+source for this site live on [GitHub](https://github.com/edwardedmonds).
 
 ---
 
@@ -142,7 +142,7 @@ The site is live at **[edwardjedmonds.com](https://edwardjedmonds.com/)** over H
 - DNS (at Squarespace) points the apex at GitHub Pages via the four `A` records plus `AAAA` records.
 - **Settings → Pages** has the custom domain set with **Enforce HTTPS** enabled.
 
-`www` is not configured — add a `www` CNAME to `deths74r.github.io` if you ever want it.
+`www` is not configured — add a `www` CNAME to `edwardedmonds.github.io` if you ever want it.
 
 ## Known dependency: KaTeX
 

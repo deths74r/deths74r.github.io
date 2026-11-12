@@ -4,7 +4,7 @@
 {{- $siteId := printf "%s#website" site.BaseURL -}}
 {{- $personId := printf "%s#person" site.BaseURL -}}
 {{- $pageId := printf "%s#webpage" .Permalink -}}
-{{- $person := dict "@type" "Person" "@id" $personId "name" site.Params.author "url" ("about/" | absURL) "description" site.Params.author_bio "sameAs" (slice "https://github.com/deths74r") -}}
+{{- $person := dict "@type" "Person" "@id" $personId "name" site.Params.author "url" ("about/" | absURL) "description" site.Params.author_bio "sameAs" (slice "https://github.com/edwardedmonds") -}}
 {{- $website := dict "@type" "WebSite" "@id" $siteId "url" site.BaseURL "name" site.Title "description" site.Params.description "inLanguage" "en-US" "publisher" (dict "@id" $personId) -}}
 {{- $type := "WebPage" -}}
 {{- if eq .RelPermalink ("/about/" | relURL) -}}

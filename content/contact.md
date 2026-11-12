@@ -10,4 +10,4 @@ everything, though I can't always reply quickly.
 {{< email >}}
 
 My work and the source for this site also live on
-[GitHub](https://github.com/deths74r).
+[GitHub](https://github.com/edwardedmonds).
