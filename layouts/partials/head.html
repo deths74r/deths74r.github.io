@@ -6,6 +6,9 @@
 {{- $ogimg := partial "og-image.html" . -}}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+{{- if .IsHome }}
+<meta name="msvalidate.01" content="E94EA8413AEFC0FD247E54EF7E95A420">
+{{- end }}
 <title>{{ $pageTitle }}</title>
 <meta name="description" content="{{ $desc }}">
 <meta name="robots" content="{{ cond $noindex "noindex, follow" "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" }}">
