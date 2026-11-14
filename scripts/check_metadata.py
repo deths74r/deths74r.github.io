@@ -18,6 +18,7 @@ class Page(HTMLParser):
         self.meta = {}
         self.links = []
         self.times = []
+        self.h1_count = 0
         self.title = ""
         self.schema = []
         self.field = None
@@ -26,6 +27,8 @@ class Page(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        if tag == "h1":
+            self.h1_count += 1
         if tag == "meta":
             key = attrs.get("name", attrs.get("property", attrs.get("http-equiv")))
             if key:
@@ -69,6 +72,7 @@ def check_site(root):
                 continue
             page_count += 1
             assert page.title.strip(), "Missing title"
+            assert page.h1_count == 1, f"Expected one main heading, found {page.h1_count}"
             desc = page.value("description")
             assert desc.strip() and "<" not in desc, "Missing/plain-text description"
             assert page.value("og:title") == page.value("twitter:title") == page.title

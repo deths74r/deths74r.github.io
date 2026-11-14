@@ -144,7 +144,7 @@ The site is live at **[edwardjedmonds.com](https://edwardjedmonds.com/)** over H
 - DNS (at Squarespace) points the apex at GitHub Pages via the four `A` records plus `AAAA` records.
 - **Settings → Pages** has the custom domain set with **Enforce HTTPS** enabled.
 
-`www` is not configured — add a `www` CNAME to `edwardedmonds.github.io` if you ever want it.
+Both HTTP and `www` variants redirect to the canonical `https://edwardjedmonds.com/` address.
 
 ## Known dependency: KaTeX
 

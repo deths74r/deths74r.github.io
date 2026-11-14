@@ -6,7 +6,11 @@
     {{- with (or .Params.subtitle .Description) }}<p class="post-subtitle">{{ . }}</p>{{ end }}
     {{- if .IsPage }}
     <p class="post-meta">
+      {{- if in (slice "essays" "archive") .Section }}
+      <a rel="author" href="{{ "/about/" | relURL }}">{{ site.Params.author }}</a>
+      {{- else }}
       <span>{{ site.Params.author }}</span>
+      {{- end }}
       {{- with .PublishDate }} · <time datetime="{{ .Format "2006-01-02" }}">{{ .Format "January 2, 2006" }}</time>{{ end }}
       {{- if gt .WordCount 0 }} · {{ .ReadingTime }} min read · {{ lang.FormatNumber 0 .WordCount }} words{{ end }}
     </p>
@@ -25,6 +29,26 @@
   </div>
 
   <footer class="post-footer" data-pagefind-ignore>
+    {{- if eq .Section "essays" }}
+    {{- $current := . }}
+    {{- $essays := (where site.RegularPages "Section" "essays").ByPublishDate }}
+    {{- range $index, $essay := $essays }}
+    {{- if eq .RelPermalink $current.RelPermalink }}
+    <nav class="essay-navigation" aria-label="Essay sequence">
+      {{- if gt $index 0 }}
+      {{- with index $essays (sub $index 1) }}
+      <p><span>Earlier essay</span><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+      {{- end }}
+      {{- end }}
+      {{- if lt $index (sub (len $essays) 1) }}
+      {{- with index $essays (add $index 1) }}
+      <p><span>Later essay</span><a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+      {{- end }}
+      {{- end }}
+    </nav>
+    {{- end }}
+    {{- end }}
+    {{- end }}
     {{- with .GetTerms "tags" }}
     <ul class="tags">
       {{- range . }}<li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>{{ end }}
